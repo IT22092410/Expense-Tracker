@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExpTrack</string>
+    <string name="amount_format">%s</string>
+</resources>
