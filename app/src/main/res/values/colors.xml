@@ -5,4 +5,6 @@
     <color name="lblue">#C6C6C7</color>
     <color name="red">#FF3A3A</color>
     <color name="yellow">#FFDE59</color>
+    <color name="Black">#7A000000</color>
+    <color name="Black1">#6f6f70</color>
 </resources>

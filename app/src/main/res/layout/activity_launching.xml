@@ -9,7 +9,7 @@
     <ListView
         android:id="@+id/expenseListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="700sp"
         android:divider="@android:color/transparent"
         android:dividerHeight="8dp"
         android:padding="16dp" />
@@ -26,12 +26,15 @@
 
     <TextView
         android:id="@+id/totalExpenseTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
         android:layout_above="@id/addExpenseButton"
         android:layout_centerHorizontal="true"
-        android:textSize="30sp"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:background="@color/yellow"
+        android:fontFamily="@font/mogra"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
 
 </RelativeLayout>
